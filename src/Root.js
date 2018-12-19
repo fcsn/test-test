@@ -10,8 +10,8 @@ const Root = () => {
     return (
         <Provider store={store}>
             <BrowserRouter>
-            <App/>
-        </BrowserRouter>
+                <App/>
+            </BrowserRouter>
         </Provider>
     )
 }

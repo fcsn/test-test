@@ -1,10 +1,11 @@
 import React from 'react';
+import PageTemplate from 'components/common/PageTemplate';
 
 const GoodsPage = () => {
     return (
-        <div>
-            Goods
-        </div>
+        <PageTemplate>
+            body
+        </PageTemplate>
     )
 }
 

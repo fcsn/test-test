@@ -20,7 +20,8 @@
     "redux": "^4.0.1",
     "redux-actions": "^2.6.4",
     "redux-pender": "^2.0.9",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "should": "^13.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
