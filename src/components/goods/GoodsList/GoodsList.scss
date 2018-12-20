@@ -1,12 +1,7 @@
 @import 'src/styles/utils';
 
-$variable-width: calc(100vw / 3);
-
-.grid-thirds {
-  display: flex;
-  justify-content: space-between;
-  height: $variable-width;
-}
+//$variable-width: calc(100vw / 3);
+$variable-width: 33%;
 
 @include media('<medium') {
   .grid-thirds {
@@ -18,11 +13,26 @@ $variable-width: calc(100vw / 3);
       //min-height: calc(100vh - 5rem);
       margin: 0 0 0 0;
       border: 0.5px solid white;
+      padding: 0px;
     }
   }
 }
 
-.col {
-  //background: salmon;
-  padding: 0px;
+@include media('>medium') {
+  .grid-thirds {
+    display: flex;
+    justify-content: space-between;
+    .col {
+      width: $variable-width;
+      height: $variable-width;
+      //min-height: calc(100vh - 5rem);
+      margin: 0 0 0 0;
+      border: 0.5px solid white;
+      padding: 0px;
+    }
+  }
+}
+
+.list-con {
+  //width: auto;
 }

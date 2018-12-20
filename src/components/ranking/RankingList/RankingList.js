@@ -1,12 +1,17 @@
 import React from 'react';
 import styles from './RankingList.scss';
 import cx from 'classnames';
+import { Link } from 'react-router-dom';
 
 const RankingItem = ({id, img, url,name, description}) => {
     return (
         <div className={cx('ranking-item')}>
             <div className={cx('ranking-index')}>1.</div>
-            <img className={cx('ranking-img')} src={img} alt="img"/>
+            <div>
+                <a href={url}>
+                    <img className={cx('ranking-img')} src={img} alt="img"/>
+                </a>
+            </div>
             <div className={cx('ranking-info')}>
                 <div className={cx('ranking-name')}>
                     {name}
@@ -29,6 +34,7 @@ const RankingList = ({rankings}) => {
                             url={url}
                             description={description}
                             name={name}
+                            key={id}
                         />
                     )
             });

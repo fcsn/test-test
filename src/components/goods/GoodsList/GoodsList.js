@@ -4,9 +4,6 @@ import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
 
-// id image.{url id} price shopId shopName title url mobileUrl
-//  image.url, image.id,  shopId, shopName, title, url, mobileUrl
-
 {/*<div className={cx('grid-thirds')}>*/}
                 {/*<div className={cx('col')}><img src={img} alt="item"/></div>*/}
             {/*</div>*/}

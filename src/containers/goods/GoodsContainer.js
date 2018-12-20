@@ -224,9 +224,7 @@ class GoodsContainer extends React.Component {
 
     render() {
         return (
-            <div>
-                <GoodsList goods={this.state.goods.data}/>
-            </div>
+              <GoodsList goods={this.state.goods.data}/>
         );
     }
 }
