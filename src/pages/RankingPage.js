@@ -1,10 +1,11 @@
 import React from 'react';
 import PageTemplate from 'components/common/PageTemplate';
+import RankingContainer from 'containers/ranking/RankingContainer';
 
 const RankingPage = () => {
     return (
         <PageTemplate>
-            Ranking
+            <RankingContainer/>
         </PageTemplate>
     )
 }
