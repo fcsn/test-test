@@ -1,10 +1,11 @@
 import React from 'react';
+import PageTemplate from 'components/common/PageTemplate';
 
 const LobbyPage = () => {
     return (
-        <div>
+        <PageTemplate>
             Lobby
-        </div>
+        </PageTemplate>
     )
 }
 

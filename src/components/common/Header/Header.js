@@ -16,10 +16,10 @@ const Header = () => (
                 </Link>
             </div>
             <div className={cx('right')}>
-                <Button>
+                <Button to='/goods'>
                     Goods
                 </Button>
-                <Button>
+                <Button to='/ranking'>
                     Ranking
                 </Button>
             </div>

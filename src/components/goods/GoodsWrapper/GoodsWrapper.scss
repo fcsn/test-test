@@ -1,0 +1,19 @@
+@import 'src/styles/utils';
+
+.goods-wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 3rem 1rem 3rem 1rem;
+
+  @include media('<wide') {
+    width: 768px;
+  }
+  @include media('<large') {
+    width: 512px;
+  }
+  @include media('<medium') {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
