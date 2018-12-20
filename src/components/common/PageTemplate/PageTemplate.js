@@ -1,10 +1,12 @@
 import React from 'react';
-import HeaderContainer from 'containers/common/HeaderContainer';
 import styles from './PageTemplate.scss';
-import cx from 'classnames';
+import classNames from 'classnames/bind';
+import HeaderContainer from 'containers/common/HeaderContainer';
+
+const cx = classNames.bind(styles)
 
 const PageTemplate = ({children}) => (
-    <div className={cx('page-tamplate')}>
+    <div className={cx('page-template')}>
         <HeaderContainer/>
         <main>
             {children}
@@ -13,3 +15,6 @@ const PageTemplate = ({children}) => (
 )
 
 export default PageTemplate;
+
+
+

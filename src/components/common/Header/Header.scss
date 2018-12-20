@@ -1,7 +1,8 @@
 @import 'src/styles/utils';
 
 .header {
-  background: $oc-blue-6;
+  //background: $oc-gray-3;
+  background: linear-gradient(to right, $oc-gray-3, $oc-gray-1);
   .header-content {
     height: 5rem;
     width: 1400px;
