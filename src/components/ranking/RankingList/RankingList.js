@@ -14,7 +14,7 @@ const RankingItem = ({id, img, url,name, description}) => {
             </div>
             <div className={cx('ranking-info')}>
                 <div className={cx('ranking-name')}>
-                    {name}
+                    <a className={cx('ranking-link')} href={url}>{name}</a>
                 </div>
                 <div className={cx('ranking-description')}>
                     {description}

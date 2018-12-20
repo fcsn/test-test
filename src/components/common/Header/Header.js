@@ -9,10 +9,10 @@ import Button from 'components/common/Button';
 const Header = () => (
     <header className={cx('header')}>
         <div className={cx('header-content')}>
-            <div className={cx('brand')}>
-                <Link to="/">
-                    <img src={logo} alt="logo" width={30}/>
-                    <img src={logoType} alt="logotype" style={{marginLeft: 10}} width={80}/>
+            <div className={cx('logo')}>
+                <Link className={cx('logo-link')} to="/">
+                    <img className={cx('logo-img')} src={logo} alt="logo"/>
+                    <img className={cx('logo-type')} src={logoType} alt="logotype"/>
                 </Link>
             </div>
             <div className={cx('right')}>

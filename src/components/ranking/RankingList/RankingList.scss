@@ -21,7 +21,9 @@
     flex-direction: column;
     justify-content: center;
     .ranking-name {
-
+        .ranking-link {
+            cursor: pointer;
+        }
     }
     .ranking-description {
       color: $oc-gray-5;

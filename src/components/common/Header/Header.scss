@@ -9,10 +9,8 @@
     margin: 0 auto;
     padding-left: 3rem;
     padding-right: 3rem;
-
     display: flex;
     align-items: center;
-
     @include media('<wide') {
       width: 100%;
     }
@@ -20,15 +18,34 @@
       padding-left: 1rem;
       padding-right: 1rem;
     }
+    .logo {
+      .logo-link {
+          .logo-img {
+            @include media('<large') {
+                width: 1.5rem;
+            }
+            @include media('>large') {
+                width: 2rem;
+            }
+          }
+          .logo-type {
+            @include media('<large') {
+                width: 3.5rem;
+                margin-left: 0.2rem;
+            }
+            @include media('>large') {
+                width: 5rem;
+                margin-left: 0.6rem;
+            }
+          }
+      }
+    }
     .right {
       margin-left: auto;
-      @include media('>wide') {
-        font-size: 1.3rem;
-      }
       @include media('>large') {
         font-size: 1.3rem;
       }
-      @include media('<medium') {
+      @include media('<large') {
         font-size: 1rem;
       }
     }

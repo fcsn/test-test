@@ -1,38 +1,22 @@
 @import 'src/styles/utils';
 
 //$variable-width: calc(100vw / 3);
-$variable-width: 33%;
+$variable-width: 32.5%;
 
-@include media('<medium') {
-  .grid-thirds {
-    display: flex;
-    justify-content: space-between;
-    .col {
-      width: $variable-width;
-      height: $variable-width;
-      //min-height: calc(100vh - 5rem);
-      margin: 0 0 0 0;
-      border: 0.5px solid white;
-      padding: 0px;
+.grid-thirds {
+  max-width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  .col {
+    max-width: 100% !important;
+    width: $variable-width;
+    height: $variable-width;
+    margin: 0.125rem 0.1rem 0.125rem 0.1rem;
+    @include media('>large') {
+        margin: 0.35rem 0 0.35rem 0;
     }
   }
 }
-
-@include media('>medium') {
-  .grid-thirds {
-    display: flex;
-    justify-content: space-between;
-    .col {
-      width: $variable-width;
-      height: $variable-width;
-      //min-height: calc(100vh - 5rem);
-      margin: 0 0 0 0;
-      border: 0.5px solid white;
-      padding: 0px;
-    }
-  }
-}
-
 .list-con {
-  //width: auto;
+  max-width: 100% !important;
 }
