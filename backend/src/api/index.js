@@ -1,8 +1,8 @@
 const Router = require('koa-router');
+const products = require('./products');
+
 const api = new Router();
 
-api.get('/goods', ctx => {
-    ctx.body = 'goods들';
-})
+api.use('/products', products.routes());
 
 module.exports = api;
