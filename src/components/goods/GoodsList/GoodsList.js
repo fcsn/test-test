@@ -3,24 +3,27 @@ import styles from './GoodsList.scss';
 import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
-
-{/*<div className={cx('grid-thirds')}>*/}
+            {/*<div className={cx('grid-thirds')}>*/}
                 {/*<div className={cx('col')}><img src={img} alt="item"/></div>*/}
+            {/*</div>*/}
+
+            {/*<div className={cx('grid-thirds')}>*/}
+                {/*<img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>*/}
+                {/*<img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>*/}
+                {/*<img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>*/}
             {/*</div>*/}
 const GoodsItem = ({price, img, imgId, shopId, shopName, title, url, mobileUrl}) => {
     return (
             <div className={cx('grid-thirds')}>
-                <img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>
-                <img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>
-                <img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>
+                <div className={cx('col')}><img src={img} alt="item"/></div>
             </div>
     )
 }
 
-const GoodsList = ({goods}) => {
+const GoodsList = ({goods, loading}) => {
     const goodsList = goods.map(
-        (post, index) => {
-            const { id, price, image, shopId, shopName, title, url, mobileUrl } = post
+        (goods, index) => {
+            const { id, price, image, shopId, shopName, title, url, mobileUrl } = goods
             return (
                 <GoodsItem
                 price={price}

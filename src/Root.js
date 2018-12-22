@@ -7,6 +7,7 @@ import configure from 'store/configure';
 const store = configure();
 
 const Root = () => {
+    const store = configure();
     return (
         <Provider store={store}>
             <BrowserRouter>
