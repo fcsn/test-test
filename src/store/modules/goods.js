@@ -24,10 +24,6 @@ export const getGoods = () => (
     }
 )
 
-// const initialState = Map({
-//     goods: List()
-// });
-
 const initialState = {
     pending: false,
     error: false,

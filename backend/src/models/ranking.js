@@ -11,7 +11,7 @@ const Ranking = new Schema({
                 },
                 liked: Boolean,
                 name: String,
-                SecondName: String,
+                secondName: {type: String, default: null},
                 url: String,
 });
 

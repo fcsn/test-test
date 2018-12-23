@@ -13,11 +13,11 @@ exports.write = async ctx => {
   }
 };
 
-exports.list = async (ctx) => {
+exports.list = async ctx => {
   try {
     const rankings = await Ranking.find();
     ctx.body = rankings;
-  } catch(e) {
+  } catch (e) {
     ctx.throw(e, 500);
   }
 };

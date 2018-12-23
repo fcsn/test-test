@@ -3,7 +3,6 @@ import GoodsList from 'components/goods/GoodsList';
 import * as goodsActions from 'store/modules/goods';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import axios from 'axios';
 
 class GoodsContainer extends React.Component {
     componentDidMount () {

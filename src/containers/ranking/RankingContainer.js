@@ -1,5 +1,8 @@
 import React from 'react';
 import RankingList from 'components/ranking/RankingList';
+import { connect } from 'react-redux';
+import * as rankingActions from 'store/modules/ranking';
+import { bindActionCreators } from 'redux';
 
 class RankingContainer extends React.Component {
     state = {
@@ -372,15 +375,33 @@ class RankingContainer extends React.Component {
           "updatedAt": "2018-11-28T05:15:34.977297+00:00"
         }
     }
-    render() {
+
+    componentDidMount () {
+        const { RankingActions } = this.props
+        RankingActions.getRankings();
+    }
+
+  render() {
+        const { rankings, loading, error } = this.props
         return (
             <div>
                 <RankingList
-                    rankings={this.state.rankings.data}
+                    rankings={rankings}
+                    loading={loading}
+                    error={error}
                 />
             </div>
         );
     }
 }
 
-export default RankingContainer;
+export default connect(
+    state => ({
+        rankings: state.ranking.rankings,
+        loading: state.ranking.pending,
+        error: state.ranking.error
+    }),
+    dispatch => ({
+        RankingActions: bindActionCreators(rankingActions, dispatch)
+    })
+)(RankingContainer);

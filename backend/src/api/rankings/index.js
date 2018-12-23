@@ -5,6 +5,6 @@ const rankings = new Router();
 
 rankings.get('/', rankingsCtrl.list);
 rankings.post('/', rankingsCtrl.write);
-rankings.delete('/', rankingsCtrl.remove);
+rankings.delete('/:id', rankingsCtrl.remove);
 
-module.exports = products;
+module.exports = rankings;
