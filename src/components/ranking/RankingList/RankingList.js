@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './RankingList.scss';
-import cx from 'classnames';
-import { Link } from 'react-router-dom';
+import classNames from 'classnames/bind';
+
+const cx = classNames.bind(styles);
 
 const RankingItem = ({id, img, url,name, description}) => {
     return (

@@ -3,47 +3,51 @@ import styles from './GoodsList.scss';
 import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
-            {/*<div className={cx('grid-thirds')}>*/}
-                {/*<div className={cx('col')}><img src={img} alt="item"/></div>*/}
-            {/*</div>*/}
 
-            {/*<div className={cx('grid-thirds')}>*/}
-                {/*<img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>*/}
-                {/*<img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>*/}
-                {/*<img className={cx('col')} src="https:\/\/usercontents-c.styleshare.kr\/images\/35304551\/original" alt="item"/>*/}
-            {/*</div>*/}
-const GoodsItem = ({price, img, imgId, shopId, shopName, title, url, mobileUrl}) => {
-    return (
-            <div className={cx('grid-thirds')}>
-                <div className={cx('col')}><img src={img} alt="item"/></div>
-            </div>
-    )
+const GoodsItem = ({goods}) => {
+                return (
+                    <div className={cx('grid-thirds')}>
+                        <img className={cx('col')} src={goods[0].image.url} alt="item"/>
+                        <img className={cx('col')} src={goods[1].image.url} alt="item"/>
+                        <img className={cx('col')} src={goods[2].image.url} alt="item"/>
+                    </div>
+                )
 }
 
 const GoodsList = ({goods, loading}) => {
-    const goodsList = goods.map(
-        (goods, index) => {
-            const { id, price, image, shopId, shopName, title, url, mobileUrl } = goods
-            return (
-                <GoodsItem
-                price={price}
-                key={id}
-                id={id}
-                img={image.url}
-                imgId={image.id}
-                shopId={shopId}
-                shopName={shopName}
-                title={title}
-                url={url}
-                mobileUrl={mobileUrl}
-                />
-            )
+    const div = function (arr, n) {
+        if (arr && arr.length !== 0) {
+            const len = arr.length;
+            const cnt = Math.floor(len/n) + (Math.floor(len % n)> 0 ? 1 : 0);
+            let tmp = [];
+            let id = 1;
+
+            for (let i = 0; i < cnt; i++) {
+                tmp.push(arr.splice(0, n));
+                tmp[i].id = id++;
+            }
+            return tmp;
         }
-    );
+    }
+
+    const dividedItems = div(goods, 3)
+
+    const goodsList = dividedItems
+        ? dividedItems.map(
+            (goods, index) => {
+                const { id } = goods
+                return (
+                    <GoodsItem
+                        key={id}
+                        goods={goods}
+                        />
+                )
+            }
+        )
+        : null
+
     return (
-        <div className={cx('list-con')}>
-            {goodsList}
-        </div>
+            <div>{goodsList}</div>
     )
 }
 

@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from './Header.scss';
-import cx from 'classnames';
+import classNames from 'classnames/bind';
 import logo from 'static/img/logo.png';
 import logoType from 'static/img/typelogo.png';
 import { Link } from 'react-router-dom';
 import Button from 'components/common/Button';
+
+const cx = classNames.bind(styles);
 
 const Header = () => (
     <header className={cx('header')}>
