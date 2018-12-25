@@ -13,10 +13,10 @@ class GoodsContainer extends React.Component {
   render() {
       const { goods, loading } = this.props
         return (
-            <GoodsList
-                goods={goods}
-                loading={loading}
-            />
+                <GoodsList
+                    goods={goods}
+                    loading={loading}
+                />
         );
     }
 }

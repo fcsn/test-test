@@ -7,9 +7,9 @@ const cx = classNames.bind(styles);
 const GoodsItem = ({goods}) => {
                 return (
                     <div className={cx('grid-thirds')}>
-                        <img className={cx('col')} src={goods[0].image.url} alt="item"/>
-                        <img className={cx('col')} src={goods[1].image.url} alt="item"/>
-                        <img className={cx('col')} src={goods[2].image.url} alt="item"/>
+                        <a className={cx('link')} href={goods[0].url}><img className={cx('col')} src={goods[0].image.url} alt="item"/></a>
+                        <a className={cx('link')} href={goods[1].url}><img className={cx('col')} src={goods[1].image.url} alt="item"/></a>
+                        <a className={cx('link')} href={goods[2].url}><img className={cx('col')} src={goods[2].image.url} alt="item"/></a>
                     </div>
                 )
 }
@@ -45,7 +45,6 @@ const GoodsList = ({goods, loading}) => {
             }
         )
         : null
-
     return (
             <div>{goodsList}</div>
     )
