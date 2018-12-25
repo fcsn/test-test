@@ -7,9 +7,24 @@ const cx = classNames.bind(styles);
 const GoodsItem = ({goods}) => {
                 return (
                     <div className={cx('grid-thirds')}>
-                        <a className={cx('link')} href={goods[0].url}><img className={cx('col')} src={goods[0].image.url} alt="item"/></a>
-                        <a className={cx('link')} href={goods[1].url}><img className={cx('col')} src={goods[1].image.url} alt="item"/></a>
-                        <a className={cx('link')} href={goods[2].url}><img className={cx('col')} src={goods[2].image.url} alt="item"/></a>
+                        <a className={cx('link')} href={goods[0].url}>
+                            <div className={cx('price')}>
+                                <p className={cx('price-font')}>{goods[0].price.toLocaleString()}원</p>
+                            </div>
+                            <img className={cx('img')} src={goods[0].image.url} alt="item"/>
+                        </a>
+                        <a className={cx('link')} href={goods[1].url}>
+                            <div className={cx('price')}>
+                                <p className={cx('price-font')}>{goods[1].price.toLocaleString()}원</p>
+                            </div>
+                            <img className={cx('img')} src={goods[1].image.url} alt="item"/>
+                        </a>
+                        <a className={cx('link')} href={goods[2].url}>
+                            <div className={cx('price')}>
+                                <p className={cx('price-font')}>{goods[2].price.toLocaleString()}원</p>
+                            </div>
+                            <img className={cx('img')} src={goods[2].image.url} alt="item"/>
+                        </a>
                     </div>
                 )
 }

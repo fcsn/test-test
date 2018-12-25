@@ -11,16 +11,49 @@ $variable-width: 32.5%;
       max-width: 100% !important;
       width: $variable-width;
       height: $variable-width;
+      position: relative;
+      display: inline-block;
       margin: 0.125rem 0.1rem 0.125rem 0.1rem;
       @include media('>large') {
         margin: 0.35rem 0 0.35rem 0;
       }
-      .col {
+      .price {
+        position: absolute;
+        height: 100%;
+        text-align: center;
+        width: 100%;
+        .price-font {
+           display: inline-block;
+           font-size: 1.5rem;
+           color: #FFF;
+           opacity: 0;
+           @include media('<large') {
+             font-size: 1rem;
+           }
+           @include media('<medium') {
+             opacity: 0.7;
+             font-size: 0.5rem;
+             padding-top: 5rem;
+           }
+        }
+      }
+      .price:hover {
+        .price-font {
+          opacity: 1;
+          transition: 1s;
+        }
+      }
+      .price:before {
+         content: '';
+         display: inline-block;
+         height: 100%;
+         vertical-align: middle;
+      }
+      .img {
         max-width: 100%;
-    }
-    .price {
-      float: left;
-    }
+        display: block;
+        height: auto;
+      }
   }
 }
 .list-con {
