@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04533057-c8f3-4ac3-827a-195ab48303a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/lobby/LobbyButtons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/lobby/LobbyContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/goods/GoodsList/GoodsList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/goods/GoodsList/GoodsList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LobbyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LobbyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LobbyPage.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,46 +15,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/lobby/LobbyContainer.js">
+        <entry file="file://$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="434">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/LobbyPage.js">
+        <entry file="file://$PROJECT_DIR$/backend/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="31">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="341">
+                <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -99,7 +77,6 @@
       <find>medal</find>
       <find>img/</find>
       <find>gradient</find>
-      <find>const cx</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/components/common/PageWrapper/PageWrapper.scss" />
         <option value="$PROJECT_DIR$/src/components/common/PageTemplate/PageTemplate.scss" />
         <option value="$PROJECT_DIR$/src/pages/LobbyPage.scss" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/components/common/Button/Button.scss" />
         <option value="$PROJECT_DIR$/src/components/common/Header/Header.scss" />
         <option value="$PROJECT_DIR$/src/components/goods/GoodsList/GoodsList.scss" />
@@ -159,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/containers/lobby/LobbyContainer.js" />
         <option value="$PROJECT_DIR$/src/pages/LobbyPage.js" />
         <option value="$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -173,12 +150,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-test" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
@@ -271,39 +254,6 @@
               <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="lobby" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="ranking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,13 +261,6 @@
               <item name="test-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-test" type="b2602c69:ProjectViewProjectNode" />
@@ -342,7 +285,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,12 +351,13 @@
       <workItem from="1545612101451" duration="12117000" />
       <workItem from="1545712013327" duration="9132000" />
       <workItem from="1545775924594" duration="927000" />
-      <workItem from="1545786736224" duration="9562000" />
+      <workItem from="1545786736224" duration="9889000" />
+      <workItem from="1545824236137" duration="763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85772000" />
+    <option name="totallyTimeSpent" value="86862000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +372,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26678878" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26984128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -465,13 +408,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -569,16 +505,6 @@
     <entry file="file://$PROJECT_DIR$/src/containers/goods/GoodsContainer.css" />
     <entry file="file://$PROJECT_DIR$/src/static/img/typelogo.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/PageWrapper/PageWrapper.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -749,12 +675,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/lobby/LobbyContainer.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/lobby/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/lobby/LobbyContainer.scss" />
+    <entry file="file://$PROJECT_DIR$/src/containers/lobby/index.js" />
     <entry file="file://$PROJECT_DIR$/src/components/goods/GoodsList/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -796,13 +718,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/LobbyPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="17" lean-forward="true" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/LobbyPage.scss" />
     <entry file="file://$PROJECT_DIR$/src/containers/goods/GoodsContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -813,10 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/lobby/LobbyContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="499">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -833,10 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/lobby/LobbyContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="217">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -845,8 +761,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/lobby/LobbyButtons/LobbyButtons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="434">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="341">
+            <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

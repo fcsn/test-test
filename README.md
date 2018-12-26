@@ -22,6 +22,16 @@ test-test의 루트 디렉토리에서 `$ cd backend`로 backend 디렉토리로
 
 이동 후 `$ yarn start:dev`로 서버를 동작시켜 주세요.
 
+### `start DataBase`
+
+`$ brew install mongodb`
+
+node를 설치한 home brew로 mongodb를 깔아줍니다.
+
+mongodb가 성공적으로 설치되었으면 
+
+`$ brew services start mongodb`로 데이터베이스를 동작시킵니다.
+
 ### `start client`
 
 `$ cd ..`으로 다시 루트 디렉토리로 이동합니다.
