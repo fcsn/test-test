@@ -3,12 +3,7 @@
 .btn {
     color: $oc-gray-7;
     background-color: transparent;
-    outline:0;
-    //@include transition(background-color 0.3s ease);
-    font-family: 'Ubuntu', sans-serif;
-    padding: 15/2.5 15*1.5 15/2.5 15*1.5;
     font-size: 0.8em;
-    //border-radius: 10px;
 }
 
 .btn:not(last-child) {
