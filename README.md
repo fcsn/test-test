@@ -1,44 +1,31 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## React simple App
 
-In the project directory, you can run:
+### `git clone`
 
-### `npm start`
+터미널에서 `$ git clone https://github.com/fcsn/test-test.git`으로 git을 clone해옵니다.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`$ cd test-test`로 clone해온 폴더로 이동 합니다.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### `npm install`
 
-### `npm test`
+`$ npm install` 또는 `$ yarn`을 통해서 node_modules를 추가합니다. 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+이 과정은 node와 npm 또는 yarn이 설치되어 있어야 합니다.
 
-### `npm run build`
+[node, npm 설치하기](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-and-create-a-local-development-environment-on-macos)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `start server`
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+test-test의 루트 디렉토리에서 `$ cd backend`로 backend 디렉토리로 이동합니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+이동 후 `$ yarn start:dev`로 서버를 동작시켜 주세요.
 
-### `npm run eject`
+### `start client`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`$ cd ..`으로 다시 루트 디렉토리로 이동합니다.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`$ npm start` 또는 `$ yarn start`를 통해 클라이언트를 열고<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[http://localhost:3000](http://localhost:3000)로 들어가면 프로젝트를 확인할 수 있습니다.

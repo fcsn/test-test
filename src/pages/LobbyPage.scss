@@ -11,6 +11,8 @@
     border: 1px solid $oc-gray-6;
     border-radius: 0.8rem;
     padding: 0.8rem 1rem 0.6rem 1rem;
+    //background: linear-gradient(to bottom left, $oc-gray-1, white);
+    background: radial-gradient(circle, white, $oc-gray-0, $oc-gray-2);
     @include material-shadow(2, 0.5);
   }
   .link:hover {
